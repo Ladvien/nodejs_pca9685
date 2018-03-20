@@ -8,14 +8,17 @@
     "mysql": "github:mysqljs/mysql",
     "npm-link": "0.0.4",
     "pca9685": "file:node_modules/pca9685",
-    "sleep": "file:node_modules/sleep",
-    "systemjs": "^0.21.0",
-    "typescript-compiler": "^1.4.1-2"
+    "sleep": "file:node_modules/sleep"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "i2c-bus": "file:node_modules/i2c-bus",
+    "mysql": "github:mysqljs/mysql",
+    "npm-link": "0.0.4",
+    "pca9685": "file:node_modules/pca9685",
+    "sleep": "file:node_modules/sleep"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "compile": "tsc --outDir ./build --module commonjs ./src/*.ts"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC"

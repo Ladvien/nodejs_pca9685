@@ -29,6 +29,7 @@ var options = {
     frequency: 50,
     debug: false
 };
+
 pwm = new Pca9685Driver(options, function(err) {
     if (err) {
         console.error("Error initializing PCA9685");

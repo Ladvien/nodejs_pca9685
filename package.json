@@ -4,18 +4,15 @@
   "description": "",
   "main": "app.js",
   "dependencies": {
-    "i2c-bus": "file:node_modules/i2c-bus",
+    "i2c-bus": "^3.0.0",
     "mysql": "github:mysqljs/mysql",
     "npm-link": "0.0.4",
-    "pca9685": "file:node_modules/pca9685",
-    "sleep": "file:node_modules/sleep"
+    "pca9685": "^4.0.3",
+    "sleep": "^5.1.1"
   },
   "devDependencies": {
-    "i2c-bus": "file:node_modules/i2c-bus",
     "mysql": "github:mysqljs/mysql",
-    "npm-link": "0.0.4",
-    "pca9685": "file:node_modules/pca9685",
-    "sleep": "file:node_modules/sleep"
+    "npm-link": "0.0.4"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
